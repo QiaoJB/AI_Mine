@@ -1,0 +1,20 @@
+name: gold
+# =====================
+# Sentinel-2 波段
+# =====================
+bands:
+  - B02
+  - B03
+  - B04
+  - B08
+  - B11
+  - B12
+# =====================
+# 蚀变指数
+# =====================
+alteration_indices: 
+  - fe_oxide_nd
+  - al_oh_nd
+  - silica_proxy
+  - redness
+  - ndvi

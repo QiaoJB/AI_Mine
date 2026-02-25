@@ -1,0 +1,16 @@
+name: copper
+
+bands:
+  - B02
+  - B03
+  - B04
+  - B08
+  - B11
+  - B12
+
+alteration_indices:
+  - al_oh_nd
+  - clay_ratio
+  - silica_proxy
+  - fe_oxide_nd
+  - ndvi

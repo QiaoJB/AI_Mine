@@ -1,0 +1,14 @@
+name: iron
+
+bands:
+  - B02
+  - B03
+  - B04
+  - B08
+  - B11
+
+alteration_indices:
+  - fe_oxide_nd
+  - redness
+  - moisture_nd
+  - ndvi

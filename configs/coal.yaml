@@ -1,0 +1,13 @@
+name: coal
+
+bands:
+  - B02
+  - B03
+  - B04
+  - B08
+  - B11
+
+alteration_indices:
+  - darkness
+  - moisture_nd
+  - ndvi
