@@ -1,4 +1,4 @@
-# UAV & Remote Sensing Based Mineral Prospectivity Prediction
+# Remote Sensing Based Mineral Prospectivity Prediction
 
 This project implements a **remote sensing–driven mineral prospectivity prediction framework** using multi-source geospatial data and machine learning methods.
 
@@ -367,19 +367,3 @@ This framework can be applied to:
 * geological remote sensing analysis
 * UAV remote sensing integration
 
----
-
-# 11. Future Work
-
-Planned improvements:
-
-* integration with UAV hyperspectral data
-* multimodal remote sensing fusion
-* deep learning based mineral detection
-* 3D geological visualization
-
----
-
-# License
-
-Apache-2.0 license
