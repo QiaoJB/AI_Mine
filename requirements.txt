@@ -1,0 +1,16 @@
+numpy
+scipy
+pandas
+rasterio
+geopandas
+shapely
+pyproj
+scikit-learn
+scikit-image
+matplotlib
+seaborn
+PyYAML
+tqdm
+rtree
+fiona
+numba
