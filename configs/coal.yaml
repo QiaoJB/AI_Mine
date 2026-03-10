@@ -1,13 +1,22 @@
-name: coal
+mineral: coal
 
 bands:
-  - B02
-  - B03
-  - B04
-  - B08
-  - B11
+  - B02   # Blue
+  - B03   # Green
+  - B04   # Red
+  - B08   # NIR
+  - B11   # SWIR1
+  - B12   # SWIR2
 
+# 煤矿常见蚀变/指示
 alteration_indices:
   - darkness
-  - moisture_nd
-  - ndvi
+  - silica_proxy
+
+# 聚类参数
+lithology_clusters: 6
+alteration_clusters: 5
+
+# 随机森林参数
+rf_trees: 300
+rf_max_depth: 12

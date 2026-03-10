@@ -1,16 +1,25 @@
-name: copper
+mineral: copper
 
 bands:
-  - B02
-  - B03
-  - B04
-  - B08
-  - B11
-  - B12
+  - B02   # Blue
+  - B03   # Green
+  - B04   # Red
+  - B08   # NIR
+  - B11   # SWIR1
+  - B12   # SWIR2
 
+# 铜矿常见蚀变
 alteration_indices:
-  - al_oh_nd
-  - clay_ratio
-  - silica_proxy
   - fe_oxide_nd
-  - ndvi
+  - hematite_nd
+  - al_oh_nd
+  - chlorite_nd
+  - clay_ratio
+
+# 聚类参数
+lithology_clusters: 8
+alteration_clusters: 6
+
+# 随机森林参数
+rf_trees: 400
+rf_max_depth: 15
