@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "AI-Mine-Tools": {
+      "command": "C:/ProgramData/miniconda3/envs/pre_mine/python.exe",
+      "args": ["M:/mine_predict/mcp_mine_server.py"]
+    }
+  }
+}
